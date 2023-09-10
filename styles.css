@@ -1,0 +1,43 @@
+/* Default styles for larger screens */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header styles */
+header {
+    background-color: #140b0b;
+    color: #b1f639;
+    padding: 10px 0;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Responsive styles for smaller screens */
+@media (max-width: 768px) {
+    header {
+        padding: 10px;
+    }
+
+    nav ul {
+        text-align: center;
+        padding-top: 10px;
+    }
+
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+
+    /* Additional responsive styles can be added here */
+}
