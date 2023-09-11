@@ -7,7 +7,7 @@
 
 /* Header styles */
 header {
-    background-color: #140b0b;
+   
     color: #b1f639;
     padding: 10px 0;
 }
@@ -43,7 +43,7 @@ nav ul li {
 }
 /* Basic styling for the background */
 .background {
-    background-image: url('images/download mtn logo.png'); /* Replace with your background image URL */
+    background-image: url('images/airtel image download.png'); /* Replace with your background image URL */
     background-size: cover; 
     background-repeat: no-repeat;
     background-position: center top;
